@@ -5,7 +5,7 @@ function firstNonRepeatedChar(str) {
 	{
 		charcount[char]=charcount.get(char,0)+1
 	}
-	for char in s{
+	for char in str{
 		if charcount[char]==1{
 			return char
 		}
